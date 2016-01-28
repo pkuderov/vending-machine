@@ -1,5 +1,4 @@
 ﻿using System.Collections.Generic;
-using VendingMachine.Domain.Entities;
 
 namespace VendingMachine.Domain
 {

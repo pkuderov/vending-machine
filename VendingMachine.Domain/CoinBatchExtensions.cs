@@ -1,8 +1,5 @@
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using VendingMachine.Domain.Entities;
-using VendingMachine.Domain.Exceptions;
 
 namespace VendingMachine.Domain
 {

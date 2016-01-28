@@ -1,7 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Web.Http;
 using VendingMachine.Domain;
-using VendingMachine.Domain.Entities;
 
 namespace VendingMachine.Presentation.WebApi.Controllers
 {

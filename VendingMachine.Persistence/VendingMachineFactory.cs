@@ -1,10 +1,10 @@
-using VendingMachine.Domain.Entities;
+using VendingMachine.Domain;
 
 namespace VendingMachine.Persistence
 {
 	public static class VendingMachineFactory
 	{
-		public static Domain.VendingMachine Build()
+		public static Domain.VendingMachine Create()
 		{
 			return new Domain.VendingMachine(
 				new[]

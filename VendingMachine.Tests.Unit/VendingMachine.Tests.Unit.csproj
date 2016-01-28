@@ -53,6 +53,10 @@
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Web.Http, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.3\lib\net45\System.Web.Http.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -60,7 +64,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Interactions.cs" />
+    <Compile Include="VendingMachineControllerTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -74,6 +78,10 @@
     <ProjectReference Include="..\VendingMachine.Persistence\VendingMachine.Persistence.csproj">
       <Project>{B278B119-0936-4F18-83BB-4D75C10C9382}</Project>
       <Name>VendingMachine.Persistence</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\VendingMachine.Presentation.WebApi\VendingMachine.Presentation.WebApi.csproj">
+      <Project>{4DD4F272-F2D5-4DA5-8A98-5226A740B395}</Project>
+      <Name>VendingMachine.Presentation.WebApi</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

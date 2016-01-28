@@ -39,17 +39,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Entities\CoinBatch.cs" />
+    <Compile Include="CoinBatch.cs" />
     <Compile Include="CoinBatchExtensions.cs" />
-    <Compile Include="Entities\CoinStock.cs" />
+    <Compile Include="CoinStock.cs" />
     <Compile Include="Exceptions\NotEnoughCoinsException.cs" />
     <Compile Include="Exceptions\CannotReturnChangeException.cs" />
-    <Compile Include="Entities\Coin.cs" />
+    <Compile Include="Coin.cs" />
     <Compile Include="Exceptions\CoinTypeNotAllowedException.cs" />
     <Compile Include="Exceptions\NotEnoughMoneyException.cs" />
-    <Compile Include="Entities\Product.cs" />
-    <Compile Include="Entities\ProductBatch.cs" />
-    <Compile Include="Entities\ProductStock.cs" />
+    <Compile Include="Exceptions\ProductIsSoldException.cs" />
+    <Compile Include="Product.cs" />
+    <Compile Include="ProductBatch.cs" />
+    <Compile Include="Exceptions\ProductIsNotInAssortmentException.cs" />
+    <Compile Include="ProductStock.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="User.cs" />
     <Compile Include="UserMemento.cs" />

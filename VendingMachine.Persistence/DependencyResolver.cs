@@ -7,8 +7,8 @@ namespace VendingMachine.Persistence
 	{
 		public static IUnityContainer BuildContainer()
 		{
-			var vendingMachine = VendingMachineFactory.Build();
-			var user = UserFactory.Build();
+			var vendingMachine = VendingMachineFactory.Create();
+			var user = UserFactory.Create();
 
 			var container = new UnityContainer();
 			

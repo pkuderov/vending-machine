@@ -1,5 +1,4 @@
 using System;
-using VendingMachine.Domain.Entities;
 
 namespace VendingMachine.Domain.Exceptions
 {
